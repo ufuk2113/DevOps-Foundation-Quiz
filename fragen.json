@@ -1,0 +1,1928 @@
+[
+    {
+        "question": "Welches der folgenden Elemente gehört nicht zum CALMS-Modell?",
+        "options": ["Culture", "Automation", "Leadership", "Sharing"],
+        "answer": "Leadership",
+        "category": "DevOps-Prinzipien & Kultur"
+    },
+    {
+        "question": "Was bedeutet 'Shift-Left' im DevOps-Kontext?",
+        "options": [
+            "Entwickler übernehmen die Rolle der Tester.",
+            "Qualität und Tests werden so früh wie möglich im Entwicklungsprozess integriert.",
+            "Das Deployment wird nach links im Lifecycle verschoben.",
+            "Entwickler und Operations arbeiten in getrennten Teams."
+        ],
+        "answer": "Qualität und Tests werden so früh wie möglich im Entwicklungsprozess integriert.",
+        "category": "DevOps-Prinzipien & Kultur"
+    },
+    {
+        "question": "Welche Methode fördert kontinuierliche Integration und Deployment?",
+        "options": ["Waterfall", "CI/CD", "V-Modell", "Agile"],
+        "answer": "CI/CD",
+        "category": "CI/CD"
+    },
+    {
+        "question": "Was beschreibt die Praxis 'Infrastructure as Code'?",
+        "options": [
+            "Hardware manuell konfigurieren",
+            "Automatisierte Konfiguration von Infrastruktur per Code",
+            "Dokumentation der Hardware",
+            "Entwicklung von Software ohne Infrastruktur"
+        ],
+        "answer": "Automatisierte Konfiguration von Infrastruktur per Code",
+        "category": "Automatisierung"
+    },
+    {
+        "question": "Welches Tool wird hauptsächlich für Versionskontrolle genutzt?",
+        "options": ["Git", "Jenkins", "Docker", "Kubernetes"],
+        "answer": "Git",
+        "category": "Tools & Technologien"
+    },
+    {
+        "question": "Welches Ziel hat das Monitoring in DevOps?",
+        "options": [
+            "Software schneller entwickeln",
+            "Systemverfügbarkeit und Performance überwachen",
+            "Bugs ignorieren",
+            "Release-Zyklen verlängern"
+        ],
+        "answer": "Systemverfügbarkeit und Performance überwachen",
+        "category": "Monitoring & Feedback"
+    },
+    {
+        "question": "Was bedeutet 'Blameless Postmortem'?",
+        "options": [
+            "Fehlervermeidung durch Strafen",
+            "Analyse von Vorfällen ohne Schuldzuweisungen",
+            "Fehler ignorieren",
+            "Dokumentation von Bug-Fixes"
+        ],
+        "answer": "Analyse von Vorfällen ohne Schuldzuweisungen",
+        "category": "Kultur & Zusammenarbeit"
+    },
+    {
+        "question": "Welches Prinzip hilft bei schneller Fehlerbehebung in Produktion?",
+        "options": ["Continuous Learning", "Shift-Left", "Small Batches", "Blameless Postmortem"],
+        "answer": "Small Batches",
+        "category": "DevOps-Prinzipien & Kultur"
+    },
+    {
+        "question": "Welche Containerisierungstechnologie ist in DevOps populär?",
+        "options": ["Docker", "Jenkins", "Ansible", "GitHub"],
+        "answer": "Docker",
+        "category": "Tools & Technologien"
+    },
+    {
+        "question": "Was beschreibt 'Continuous Monitoring'?",
+        "options": [
+            "Einmalige Tests vor Release",
+            "Laufende Überwachung von Systemen und Prozessen",
+            "Nur Security-Checks durchführen",
+            "Monitoring nur für Entwickler"
+        ],
+        "answer": "Laufende Überwachung von Systemen und Prozessen",
+        "category": "Monitoring & Feedback"
+    },
+    {
+        "question": "Welche DevOps-Praxis fördert schnelle Iterationen?",
+        "options": ["Small Batches", "Big Bang Releases", "Wasserfallmodell", "ITIL Prozesse"],
+        "answer": "Small Batches",
+        "category": "DevOps-Prinzipien & Kultur"
+    },
+    {
+        "question": "Welches Tool automatisiert Deployments?",
+        "options": ["Jenkins", "GitHub", "Slack", "Zoom"],
+        "answer": "Jenkins",
+        "category": "CI/CD"
+    },
+    {
+        "question": "Was ist ein Vorteil von Continuous Integration?",
+        "options": [
+            "Fehler erst spät entdecken",
+            "Integration von Code häufig und früh",
+            "Längere Release-Zyklen",
+            "Reduzierte Testabdeckung"
+        ],
+        "answer": "Integration von Code häufig und früh",
+        "category": "CI/CD"
+    },
+    {
+        "question": "Welche Konfigurationsmanagement-Tools sind verbreitet?",
+        "options": ["Ansible", "Chef", "Puppet", "Alle oben genannten"],
+        "answer": "Alle oben genannten",
+        "category": "Automatisierung"
+    },
+    {
+        "question": "Welches Prinzip beschreibt 'Vertrauen in das Team'?",
+        "options": ["Culture", "Automation", "Sharing", "Monitoring"],
+        "answer": "Culture",
+        "category": "DevOps-Prinzipien & Kultur"
+    },
+    {
+        "question": "Welches Tool wird häufig für Container-Orchestrierung genutzt?",
+        "options": ["Kubernetes", "Docker", "Git", "Jenkins"],
+        "answer": "Kubernetes",
+        "category": "Tools & Technologien"
+    },
+    {
+        "question": "Was ist das Ziel von 'Infrastructure as Code'?",
+        "options": [
+            "Automatisierte Bereitstellung",
+            "Manuelle Konfiguration",
+            "Nur Dokumentation",
+            "Kein Nutzen"
+        ],
+        "answer": "Automatisierte Bereitstellung",
+        "category": "Automatisierung"
+    },
+    {
+        "question": "Warum ist Feedback wichtig in DevOps?",
+        "options": [
+            "Um Fehler früh zu erkennen",
+            "Um Prozesse zu verlängern",
+            "Um Releases zu verzögern",
+            "Um Teams zu trennen"
+        ],
+        "answer": "Um Fehler früh zu erkennen",
+        "category": "Monitoring & Feedback"
+    },
+    {
+        "question": "Welche Praxis fördert Lernen aus Fehlern?",
+        "options": ["Blameless Postmortem", "Punitive Review", "Ignore Errors", "Late Testing"],
+        "answer": "Blameless Postmortem",
+        "category": "Kultur & Zusammenarbeit"
+    },
+    {
+        "question": "Was ist Continuous Deployment?",
+        "options": [
+            "Automatisches Ausrollen von Code nach jedem erfolgreichen Test",
+            "Manuelles Deployment nach Wochen",
+            "Deployment nur bei Fehlern",
+            "Keine Releases"
+        ],
+        "answer": "Automatisches Ausrollen von Code nach jedem erfolgreichen Test",
+        "category": "CI/CD"
+    },
+    {
+        "question": "Welche Metriken sind für DevOps wichtig?",
+        "options": ["MTTR", "Deployment Frequency", "Lead Time", "Alle oben genannten"],
+        "answer": "Alle oben genannten",
+        "category": "Monitoring & Feedback"
+    },
+    {
+        "question": "Welche Vorteile bietet Automatisierung?",
+        "options": [
+            "Reduzierte Fehler",
+            "Schnellere Deployments",
+            "Wiederholbare Prozesse",
+            "Alle oben genannten"
+        ],
+        "answer": "Alle oben genannten",
+        "category": "Automatisierung"
+    },
+    {
+        "question": "Was ist das Ziel von CI/CD?",
+        "options": [
+            "Schnelle, zuverlässige und wiederholbare Releases",
+            "Langsame Release-Zyklen",
+            "Manuelle Integration",
+            "Keine Tests"
+        ],
+        "answer": "Schnelle, zuverlässige und wiederholbare Releases",
+        "category": "CI/CD"
+    },
+    {
+        "question": "Welches Prinzip fördert kontinuierliche Verbesserung?",
+        "options": ["Continuous Learning", "Big Bang Release", "Manual Testing", "Ignore Feedback"],
+        "answer": "Continuous Learning",
+        "category": "Kultur & Zusammenarbeit"
+    },
+    {
+        "question": "Welche Praxis verhindert Überraschungen in Produktion?",
+        "options": ["Automatisierte Deployments", "Late Testing", "Manuelle Releases", "Ignore Feedback"],
+        "answer": "Automatisierte Deployments",
+        "category": "CI/CD"
+    },
+    {
+        "question": "Welche DevOps-Praxis verbessert Time-to-Market?",
+        "options": ["CI/CD", "Manual Testing", "Big Bang Release", "Isolation"],
+        "answer": "CI/CD",
+        "category": "CI/CD"
+    },
+    {
+        "question": "Welche Metrik misst die Zeit von Code bis Deployment?",
+        "options": ["Lead Time", "MTTR", "Deployment Frequency", "Change Failure Rate"],
+        "answer": "Lead Time",
+        "category": "Monitoring & Feedback"
+    },
+    {
+        "question": "Welche Praxis reduziert menschliche Fehler in Deployments?",
+        "options": ["Automatisierung", "Manual Deployments", "Late Testing", "Big Bang Release"],
+        "answer": "Automatisierung",
+        "category": "Automatisierung"
+    },
+    {
+        "question": "Was beschreibt 'Continuous Learning'?",
+        "options": [
+            "Lernen aus Erfahrungen und Vorfällen",
+            "Keine Dokumentation",
+            "Fehler ignorieren",
+            "Release verzögern"
+        ],
+        "answer": "Lernen aus Erfahrungen und Vorfällen",
+        "category": "Kultur & Zusammenarbeit"
+    },
+    {
+        "question": "Welches Tool dient primär für Build-Automatisierung?",
+        "options": ["Maven", "Jenkins", "Gradle", "Alle oben genannten"],
+        "answer": "Alle oben genannten",
+        "category": "CI/CD"
+    },
+    {
+        "question": "Warum ist Blameless Postmortem wichtig?",
+        "options": [
+            "Fördert offene Kommunikation und Lernen aus Fehlern",
+            "Bestraft Verantwortliche",
+            "Verhindert Feedback",
+            "Verzögert Releases"
+        ],
+        "answer": "Fördert offene Kommunikation und Lernen aus Fehlern",
+        "category": "Kultur & Zusammenarbeit"
+    },
+    {
+        "question": "Welche Metrik misst die Häufigkeit fehlerhafter Deployments?",
+        "options": ["Change Failure Rate", "MTTR", "Lead Time", "Deployment Frequency"],
+        "answer": "Change Failure Rate",
+        "category": "Monitoring & Feedback"
+    },
+    {
+        "question": "Welche DevOps-Praxis unterstützt schnelle Fehlerbehebung?",
+        "options": ["Small Batches", "Big Bang Releases", "Manual Testing", "Ignore Feedback"],
+        "answer": "Small Batches",
+        "category": "DevOps-Prinzipien & Kultur"
+    },
+    {
+        "question": "Welches Tool ist primär für Containerisierung gedacht?",
+        "options": ["Docker", "Git", "Jenkins", "Ansible"],
+        "answer": "Docker",
+        "category": "Tools & Technologien"
+    },
+    {
+        "question": "Was ist ein Vorteil von Continuous Testing?",
+        "options": [
+            "Fehler früh erkennen",
+            "Bessere Qualität",
+            "Schnellere Releases",
+            "Alle oben genannten"
+        ],
+        "answer": "Alle oben genannten",
+        "category": "CI/CD"
+    },
+    {
+        "question": "Welche Vorteile bietet Automatisierung?",
+        "options": [
+            "Reduzierte Fehler",
+            "Schnellere Deployments",
+            "Wiederholbare Prozesse",
+            "Alle oben genannten"
+        ],
+        "answer": "Alle oben genannten",
+        "category": "Automatisierung"
+    },
+    {
+        "question": "Welche Tools dienen der Build-Automatisierung?",
+        "options": ["Maven", "Gradle", "Jenkins", "Alle oben genannten"],
+        "answer": "Alle oben genannten",
+        "category": "CI/CD"
+    },
+    {
+        "question": "Welche Praxis unterstützt schnelle Rollbacks?",
+        "options": ["Automatisierte Deployments", "Manual Deployments", "Big Bang Release", "Ignore Feedback"],
+        "answer": "Automatisierte Deployments",
+        "category": "CI/CD"
+    },
+    {
+        "question": "Welches Ziel verfolgt Shift-Right Testing?",
+        "options": [
+            "Tests in Produktionsumgebungen",
+            "Tests nur im Dev",
+            "Keine Tests",
+            "Tests erst am Ende"
+        ],
+        "answer": "Tests in Produktionsumgebungen",
+        "category": "CI/CD"
+    },
+    {
+        "question": "Welche Praxis unterstützt Continuous Learning?",
+        "options": ["Review Meetings", "Blameless Postmortem", "Beides", "Keine der oben genannten"],
+        "answer": "Beides",
+        "category": "Kultur & Zusammenarbeit"
+    },
+    {
+        "question": "Welche Vorteile bietet Containerisierung?",
+        "options": [
+            "Portabilität",
+            "Isolierte Umgebungen",
+            "Schnelle Deployments",
+            "Alle oben genannten"
+        ],
+        "answer": "Alle oben genannten",
+        "category": "Tools & Technologien"
+    },
+    {
+        "question": "Welche Metrik misst die Zeit bis ein Incident behoben wird?",
+        "options": ["MTTR", "Lead Time", "Deployment Frequency", "Change Failure Rate"],
+        "answer": "MTTR",
+        "category": "Monitoring & Feedback"
+    },
+    {
+        "question": "Welche Praxis verbessert Time-to-Market?",
+        "options": ["CI/CD", "Manual Testing", "Big Bang Release", "Isolation"],
+        "answer": "CI/CD",
+        "category": "CI/CD"
+    },
+    {
+        "question": "Was ist ein Vorteil von Continuous Deployment?",
+        "options": [
+            "Automatisches Ausrollen von Code",
+            "Manuelles Deployment",
+            "Release nur einmal im Jahr",
+            "Keine Tests"
+        ],
+        "answer": "Automatisches Ausrollen von Code",
+        "category": "CI/CD"
+    },
+    {
+        "question": "Welche Praxis reduziert Risiko bei Releases?",
+        "options": ["Small Batches", "Big Bang Releases", "Manual Testing", "Ignore Feedback"],
+        "answer": "Small Batches",
+        "category": "DevOps-Prinzipien & Kultur"
+    },
+    {
+        "question": "Welche Tools werden für CI/CD Pipelines verwendet?",
+        "options": ["Jenkins", "GitLab CI", "CircleCI", "Alle oben genannten"],
+        "answer": "Alle oben genannten",
+        "category": "CI/CD"
+    },
+    {
+        "question": "Was beschreibt 'Continuous Testing'?",
+        "options": [
+            "Testen während des gesamten Entwicklungsprozesses",
+            "Testen nur am Ende",
+            "Keine Tests durchführen",
+            "Nur Security-Tests"
+        ],
+        "answer": "Testen während des gesamten Entwicklungsprozesses",
+        "category": "CI/CD"
+    },
+    {
+        "question": "Welche Praxis unterstützt schnelle Fehlererkennung?",
+        "options": ["Continuous Testing", "Late Testing", "Manual Testing", "Ignore Errors"],
+        "answer": "Continuous Testing",
+        "category": "CI/CD"
+    },
+    {
+        "question": "Welche Metrik misst die Häufigkeit erfolgreicher Deployments?",
+        "options": ["Deployment Frequency", "MTTR", "Lead Time", "Change Failure Rate"],
+        "answer": "Deployment Frequency",
+        "category": "Monitoring & Feedback"
+    },
+    {
+        "question": "Welches Prinzip fördert Vertrauen und Zusammenarbeit im Team?",
+        "options": ["Culture", "Automation", "Tools", "Monitoring"],
+        "answer": "Culture",
+        "category": "DevOps-Prinzipien & Kultur"
+    },
+    {
+        "question": "Welche Vorteile bietet Infrastructure as Code?",
+        "options": [
+            "Automatisierung",
+            "Versionierung",
+            "Wiederholbarkeit",
+            "Alle oben genannten"
+        ],
+        "answer": "Alle oben genannten",
+        "category": "Automatisierung"
+    },
+    {
+        "question": "Welches Tool wird für Container-Orchestrierung genutzt?",
+        "options": ["Kubernetes", "Docker", "Git", "Jenkins"],
+        "answer": "Kubernetes",
+        "category": "Tools & Technologien"
+    },
+    {
+        "question": "Welche DevOps-Praxis fördert kontinuierliche Verbesserung?",
+        "options": ["Continuous Learning", "Big Bang Release", "Manual Testing", "Ignore Feedback"],
+        "answer": "Continuous Learning",
+        "category": "Kultur & Zusammenarbeit"
+    },
+    {
+        "question": "Was ist das Ziel von Continuous Integration?",
+        "options": [
+            "Frühe Fehlererkennung",
+            "Automatisierte Builds",
+            "Schnellere Releases",
+            "Alle oben genannten"
+        ],
+        "answer": "Alle oben genannten",
+        "category": "CI/CD"
+    },
+    {
+        "question": "Welche Metrik misst die Zeit von Code bis zur Bereitstellung in Produktion?",
+        "options": ["Lead Time", "MTTR", "Deployment Frequency", "Change Failure Rate"],
+        "answer": "Lead Time",
+        "category": "Monitoring & Feedback"
+    },
+    {
+        "question": "Welche Praxis reduziert manuelle Fehler in Deployments?",
+        "options": ["Automatisierung", "Manual Deployments", "Late Testing", "Big Bang Release"],
+        "answer": "Automatisierung",
+        "category": "Automatisierung"
+    },
+    {
+        "question": "Was beschreibt Blameless Postmortem?",
+        "options": [
+            "Fehleranalyse ohne Schuldzuweisungen",
+            "Bestrafung von Verantwortlichen",
+            "Ignorieren von Fehlern",
+            "Verzögerung von Releases"
+        ],
+        "answer": "Fehleranalyse ohne Schuldzuweisungen",
+        "category": "Kultur & Zusammenarbeit"
+    },
+    {
+        "question": "Welches Tool wird primär für Versionskontrolle verwendet?",
+        "options": ["Git", "Jenkins", "Docker", "Kubernetes"],
+        "answer": "Git",
+        "category": "Tools & Technologien"
+    },
+    {
+        "question": "Welche Vorteile bietet Containerisierung?",
+        "options": [
+            "Portabilität",
+            "Isolierte Umgebungen",
+            "Schnelle Deployments",
+            "Alle oben genannten"
+        ],
+        "answer": "Alle oben genannten",
+        "category": "Tools & Technologien"
+    },
+    {
+        "question": "Welche DevOps-Praxis verbessert Time-to-Market?",
+        "options": ["CI/CD", "Manual Testing", "Big Bang Release", "Isolation"],
+        "answer": "CI/CD",
+        "category": "CI/CD"
+    },
+    {
+        "question": "Welche Praxis verhindert Überraschungen in Produktion?",
+        "options": ["Automatisierte Deployments", "Late Testing", "Manuelle Releases", "Ignore Feedback"],
+        "answer": "Automatisierte Deployments",
+        "category": "CI/CD"
+    },
+    {
+        "question": "Welche Vorteile hat Continuous Deployment?",
+        "options": [
+            "Automatisches Ausrollen von Code",
+            "Manuelles Deployment",
+            "Release nur einmal im Jahr",
+            "Keine Tests"
+        ],
+        "answer": "Automatisches Ausrollen von Code",
+        "category": "CI/CD"
+    },
+    {
+        "question": "Welche Praxis unterstützt schnelle Rollbacks?",
+        "options": ["Automatisierte Deployments", "Manual Deployments", "Big Bang Release", "Ignore Feedback"],
+        "answer": "Automatisierte Deployments",
+        "category": "CI/CD"
+    },
+    {
+        "question": "Welche Metrik misst die Häufigkeit fehlerhafter Deployments?",
+        "options": ["Change Failure Rate", "MTTR", "Lead Time", "Deployment Frequency"],
+        "answer": "Change Failure Rate",
+        "category": "Monitoring & Feedback"
+    },
+    {
+        "question": "Was ist Continuous Testing?",
+        "options": [
+            "Testen während des gesamten Entwicklungsprozesses",
+            "Testen nur am Ende",
+            "Keine Tests durchführen",
+            "Nur Security-Tests"
+        ],
+        "answer": "Testen während des gesamten Entwicklungsprozesses",
+        "category": "CI/CD"
+    },
+    {
+        "question": "Welche Vorteile bietet Automatisierung?",
+        "options": [
+            "Reduzierte Fehler",
+            "Schnellere Deployments",
+            "Wiederholbare Prozesse",
+            "Alle oben genannten"
+        ],
+        "answer": "Alle oben genannten",
+        "category": "Automatisierung"
+    },
+    {
+        "question": "Welche Tools dienen der Build-Automatisierung?",
+        "options": ["Maven", "Gradle", "Jenkins", "Alle oben genannten"],
+        "answer": "Alle oben genannten",
+        "category": "CI/CD"
+    },
+    {
+        "question": "Welche Praxis unterstützt Continuous Learning?",
+        "options": ["Review Meetings", "Blameless Postmortem", "Beides", "Keine der oben genannten"],
+        "answer": "Beides",
+        "category": "Kultur & Zusammenarbeit"
+    },
+    {
+        "question": "Welche DevOps-Metrik misst die Zeit bis ein Incident behoben wird?",
+        "options": ["MTTR", "Lead Time", "Deployment Frequency", "Change Failure Rate"],
+        "answer": "MTTR",
+        "category": "Monitoring & Feedback"
+    },
+    {
+        "question": "Welches Prinzip fördert Vertrauen im Team?",
+        "options": ["Culture", "Automation", "Tools", "Monitoring"],
+        "answer": "Culture",
+        "category": "DevOps-Prinzipien & Kultur"
+    },
+    {
+        "question": "Welche Vorteile bietet Infrastructure as Code?",
+        "options": [
+            "Automatisierung",
+            "Versionierung",
+            "Wiederholbarkeit",
+            "Alle oben genannten"
+        ],
+        "answer": "Alle oben genannten",
+        "category": "Automatisierung"
+    },
+    {
+        "question": "Welche Tools werden für CI/CD Pipelines verwendet?",
+        "options": ["Jenkins", "GitLab CI", "CircleCI", "Alle oben genannten"],
+        "answer": "Alle oben genannten",
+        "category": "CI/CD"
+    },
+    {
+        "question": "Welche Praxis fördert schnelle Iterationen im DevOps-Team?",
+        "options": ["Small Batches", "Big Bang Release", "Wasserfallmodell", "Ignore Feedback"],
+        "answer": "Small Batches",
+        "category": "DevOps-Prinzipien & Kultur"
+    },
+    {
+        "question": "Welche Praxis verhindert lange, riskante Releases?",
+        "options": ["Small Batches", "Manual Deployments", "Ignore Feedback", "Big Bang Release"],
+        "answer": "Small Batches",
+        "category": "DevOps-Prinzipien & Kultur"
+    },
+    {
+        "question": "Welches Ziel verfolgt Shift-Left Testing?",
+        "options": [
+            "Tests früh im Entwicklungsprozess durchführen",
+            "Tests erst am Ende durchführen",
+            "Keine Tests durchführen",
+            "Nur Security-Tests"
+        ],
+        "answer": "Tests früh im Entwicklungsprozess durchführen",
+        "category": "CI/CD"
+    },
+    {
+        "question": "Welche Metrik misst die Häufigkeit erfolgreicher Deployments?",
+        "options": ["Deployment Frequency", "MTTR", "Lead Time", "Change Failure Rate"],
+        "answer": "Deployment Frequency",
+        "category": "Monitoring & Feedback"
+    },
+    {
+        "question": "Welche Vorteile hat Continuous Deployment?",
+        "options": [
+            "Automatisches Ausrollen von Code",
+            "Manuelles Deployment",
+            "Release nur einmal im Jahr",
+            "Keine Tests"
+        ],
+        "answer": "Automatisches Ausrollen von Code",
+        "category": "CI/CD"
+    },
+    {
+        "question": "Welche Praxis hilft, Risiken bei Deployments zu reduzieren?",
+        "options": ["Automatisierung", "Manual Deployments", "Late Testing", "Big Bang Release"],
+        "answer": "Automatisierung",
+        "category": "Automatisierung"
+    },
+    {
+        "question": "Welche DevOps-Praxis fördert kontinuierliches Lernen?",
+        "options": ["Blameless Postmortem", "Review Meetings", "Beides", "Keine der oben genannten"],
+        "answer": "Beides",
+        "category": "Kultur & Zusammenarbeit"
+    },
+    {
+        "question": "Was ist das Ziel von Continuous Integration?",
+        "options": [
+            "Häufige Integration von Code",
+            "Nur einmal im Monat integrieren",
+            "Fehler erst spät erkennen",
+            "Manuelles Testen"
+        ],
+        "answer": "Häufige Integration von Code",
+        "category": "CI/CD"
+    },
+    {
+        "question": "Welche Tools dienen der Build-Automatisierung?",
+        "options": ["Maven", "Gradle", "Jenkins", "Alle oben genannten"],
+        "answer": "Alle oben genannten",
+        "category": "CI/CD"
+    },
+    {
+        "question": "Welches Prinzip beschreibt 'Vertrauen in das Team'?",
+        "options": ["Culture", "Automation", "Sharing", "Monitoring"],
+        "answer": "Culture",
+        "category": "DevOps-Prinzipien & Kultur"
+    },
+    {
+        "question": "Welche Praxis reduziert manuelle Fehler in Deployments?",
+        "options": ["Automatisierung", "Manual Deployments", "Late Testing", "Big Bang Release"],
+        "answer": "Automatisierung",
+        "category": "Automatisierung"
+    },
+    {
+        "question": "Welche Metrik misst die Zeit von Code bis Deployment?",
+        "options": ["Lead Time", "MTTR", "Deployment Frequency", "Change Failure Rate"],
+        "answer": "Lead Time",
+        "category": "Monitoring & Feedback"
+    },
+    {
+        "question": "Welche Vorteile bietet Containerisierung?",
+        "options": [
+            "Portabilität",
+            "Isolierte Umgebungen",
+            "Schnelle Deployments",
+            "Alle oben genannten"
+        ],
+        "answer": "Alle oben genannten",
+        "category": "Tools & Technologien"
+    },
+    {
+        "question": "Welche Praxis verhindert Überraschungen in Produktion?",
+        "options": ["Automatisierte Deployments", "Late Testing", "Manuelle Releases", "Ignore Feedback"],
+        "answer": "Automatisierte Deployments",
+        "category": "CI/CD"
+    },
+    {
+        "question": "Welche Praxis unterstützt schnelle Rollbacks?",
+        "options": ["Automatisierte Deployments", "Manual Deployments", "Big Bang Release", "Ignore Feedback"],
+        "answer": "Automatisierte Deployments",
+        "category": "CI/CD"
+    },
+    {
+        "question": "Welche Metrik misst die Häufigkeit fehlerhafter Deployments?",
+        "options": ["Change Failure Rate", "MTTR", "Lead Time", "Deployment Frequency"],
+        "answer": "Change Failure Rate",
+        "category": "Monitoring & Feedback"
+    },
+    {
+        "question": "Was beschreibt Blameless Postmortem?",
+        "options": [
+            "Fehleranalyse ohne Schuldzuweisungen",
+            "Bestrafung von Verantwortlichen",
+            "Ignorieren von Fehlern",
+            "Verzögerung von Releases"
+        ],
+        "answer": "Fehleranalyse ohne Schuldzuweisungen",
+        "category": "Kultur & Zusammenarbeit"
+    },
+    {
+        "question": "Warum ist Feedback wichtig in DevOps?",
+        "options": [
+            "Um Fehler früh zu erkennen",
+            "Um Prozesse zu verlängern",
+            "Um Releases zu verzögern",
+            "Um Teams zu trennen"
+        ],
+        "answer": "Um Fehler früh zu erkennen",
+        "category": "Monitoring & Feedback"
+    },
+    {
+        "question": "Welche Vorteile bietet Automatisierung?",
+        "options": [
+            "Reduzierte Fehler",
+            "Schnellere Deployments",
+            "Wiederholbare Prozesse",
+            "Alle oben genannten"
+        ],
+        "answer": "Alle oben genannten",
+        "category": "Automatisierung"
+    },
+    {
+        "question": "Was ist Continuous Testing?",
+        "options": [
+            "Testen während des gesamten Entwicklungsprozesses",
+            "Testen nur am Ende",
+            "Keine Tests durchführen",
+            "Nur Security-Tests"
+        ],
+        "answer": "Testen während des gesamten Entwicklungsprozesses",
+        "category": "CI/CD"
+    },
+    {
+        "question": "Welche Praxis unterstützt Continuous Learning?",
+        "options": ["Review Meetings", "Blameless Postmortem", "Beides", "Keine der oben genannten"],
+        "answer": "Beides",
+        "category": "Kultur & Zusammenarbeit"
+    },
+    {
+        "question": "Welche DevOps-Metrik misst die Zeit bis ein Incident behoben wird?",
+        "options": ["MTTR", "Lead Time", "Deployment Frequency", "Change Failure Rate"],
+        "answer": "MTTR",
+        "category": "Monitoring & Feedback"
+    },
+    {
+        "question": "Welche DevOps-Praxis verbessert Time-to-Market?",
+        "options": ["CI/CD", "Manual Testing", "Big Bang Release", "Isolation"],
+        "answer": "CI/CD",
+        "category": "CI/CD"
+    },
+    {
+        "question": "Welche Vorteile hat Continuous Deployment?",
+        "options": [
+            "Automatisches Ausrollen von Code",
+            "Manuelles Deployment",
+            "Release nur einmal im Jahr",
+            "Keine Tests"
+        ],
+        "answer": "Automatisches Ausrollen von Code",
+        "category": "CI/CD"
+    },
+    {
+        "question": "Welche Tools werden für CI/CD Pipelines verwendet?",
+        "options": ["Jenkins", "GitLab CI", "CircleCI", "Alle oben genannten"],
+        "answer": "Alle oben genannten",
+        "category": "CI/CD"
+    },
+    {
+        "question": "Welches Prinzip fördert Vertrauen im Team?",
+        "options": ["Culture", "Automation", "Tools", "Monitoring"],
+        "answer": "Culture",
+        "category": "DevOps-Prinzipien & Kultur"
+    },
+    {
+        "question": "Welche Vorteile bietet Infrastructure as Code?",
+        "options": [
+            "Automatisierung",
+            "Versionierung",
+            "Wiederholbarkeit",
+            "Alle oben genannten"
+        ],
+        "answer": "Alle oben genannten",
+        "category": "Automatisierung"
+    },
+    {
+        "question": "Welche Praxis fördert Teamkommunikation in DevOps?",
+        "options": ["Daily Standups", "Big Bang Release", "Isolation", "Ignore Feedback"],
+        "answer": "Daily Standups",
+        "category": "Kultur & Zusammenarbeit"
+    },
+    {
+        "question": "Was ist der Vorteil von Continuous Integration?",
+        "options": [
+            "Frühe Fehlererkennung",
+            "Automatisierte Builds",
+            "Bessere Teamkommunikation",
+            "Alle oben genannten"
+        ],
+        "answer": "Alle oben genannten",
+        "category": "CI/CD"
+    },
+    {
+        "question": "Welche Tools dienen zur Versionskontrolle?",
+        "options": ["Git", "SVN", "Mercurial", "Alle oben genannten"],
+        "answer": "Alle oben genannten",
+        "category": "Tools & Technologien"
+    },
+    {
+        "question": "Was bedeutet 'Immutable Infrastructure'?",
+        "options": [
+            "Server werden nach Änderungen neu erstellt",
+            "Server werden manuell angepasst",
+            "Keine Änderungen an der Infrastruktur",
+            "Nur Dokumentation der Infrastruktur"
+        ],
+        "answer": "Server werden nach Änderungen neu erstellt",
+        "category": "Automatisierung"
+    },
+    {
+        "question": "Welche Metrik misst die Zeit zwischen Commit und Deployment?",
+        "options": ["Lead Time", "MTTR", "Deployment Frequency", "Change Failure Rate"],
+        "answer": "Lead Time",
+        "category": "Monitoring & Feedback"
+    },
+    {
+        "question": "Welche Praxis hilft, Risiken bei Releases zu reduzieren?",
+        "options": ["Small Batches", "Big Bang Release", "Ignore Feedback", "Manual Deployments"],
+        "answer": "Small Batches",
+        "category": "DevOps-Prinzipien & Kultur"
+    },
+    {
+        "question": "Welches Tool automatisiert Deployments?",
+        "options": ["Jenkins", "Git", "Docker", "Kubernetes"],
+        "answer": "Jenkins",
+        "category": "CI/CD"
+    },
+    {
+        "question": "Welche Praxis verbessert Time-to-Market?",
+        "options": ["CI/CD", "Manual Testing", "Big Bang Release", "Isolation"],
+        "answer": "CI/CD",
+        "category": "CI/CD"
+    },
+    {
+        "question": "Was beschreibt Continuous Monitoring?",
+        "options": [
+            "Einmalige Tests vor Release",
+            "Laufende Überwachung von Systemen und Prozessen",
+            "Nur Security-Checks durchführen",
+            "Monitoring nur für Entwickler"
+        ],
+        "answer": "Laufende Überwachung von Systemen und Prozessen",
+        "category": "Monitoring & Feedback"
+    },
+    {
+        "question": "Welche Praxis fördert kontinuierliches Lernen aus Fehlern?",
+        "options": ["Blameless Postmortem", "Punitive Review", "Ignore Errors", "Late Testing"],
+        "answer": "Blameless Postmortem",
+        "category": "Kultur & Zusammenarbeit"
+    },
+    {
+        "question": "Welche Vorteile bietet Automatisierung?",
+        "options": [
+            "Reduzierte Fehler",
+            "Schnellere Deployments",
+            "Wiederholbare Prozesse",
+            "Alle oben genannten"
+        ],
+        "answer": "Alle oben genannten",
+        "category": "Automatisierung"
+    },
+    {
+        "question": "Welche Praxis hilft, Feedback früh im Entwicklungsprozess zu erhalten?",
+        "options": ["Shift-Left", "Shift-Right", "Manual Testing", "Big Bang Release"],
+        "answer": "Shift-Left",
+        "category": "DevOps-Prinzipien & Kultur"
+    },
+    {
+        "question": "Welche Tools werden für CI/CD Pipelines genutzt?",
+        "options": ["Jenkins", "GitLab CI", "CircleCI", "Alle oben genannten"],
+        "answer": "Alle oben genannten",
+        "category": "CI/CD"
+    },
+    {
+        "question": "Welches Prinzip fördert Vertrauen und Zusammenarbeit im Team?",
+        "options": ["Culture", "Automation", "Sharing", "Monitoring"],
+        "answer": "Culture",
+        "category": "DevOps-Prinzipien & Kultur"
+    },
+    {
+        "question": "Welche Containerisierungstechnologie ist in DevOps populär?",
+        "options": ["Docker", "Jenkins", "Ansible", "GitHub"],
+        "answer": "Docker",
+        "category": "Tools & Technologien"
+    },
+    {
+        "question": "Welches Tool wird für Container-Orchestrierung genutzt?",
+        "options": ["Kubernetes", "Docker", "Git", "Jenkins"],
+        "answer": "Kubernetes",
+        "category": "Tools & Technologien"
+    },
+    {
+        "question": "Welche Metrik misst die Häufigkeit fehlerhafter Deployments?",
+        "options": ["Change Failure Rate", "MTTR", "Lead Time", "Deployment Frequency"],
+        "answer": "Change Failure Rate",
+        "category": "Monitoring & Feedback"
+    },
+    {
+        "question": "Welche Metrik misst die Zeit bis ein Incident behoben wird?",
+        "options": ["MTTR", "Lead Time", "Deployment Frequency", "Change Failure Rate"],
+        "answer": "MTTR",
+        "category": "Monitoring & Feedback"
+    },
+    {
+        "question": "Was ist Continuous Testing?",
+        "options": [
+            "Testen während des gesamten Entwicklungsprozesses",
+            "Testen nur am Ende",
+            "Keine Tests durchführen",
+            "Nur Security-Tests"
+        ],
+        "answer": "Testen während des gesamten Entwicklungsprozesses",
+        "category": "CI/CD"
+    },
+    {
+        "question": "Welche Praxis unterstützt schnelle Rollbacks?",
+        "options": ["Automatisierte Deployments", "Manual Deployments", "Big Bang Release", "Ignore Feedback"],
+        "answer": "Automatisierte Deployments",
+        "category": "CI/CD"
+    },
+    {
+        "question": "Welche Vorteile bietet Containerisierung?",
+        "options": [
+            "Portabilität",
+            "Isolierte Umgebungen",
+            "Schnelle Deployments",
+            "Alle oben genannten"
+        ],
+        "answer": "Alle oben genannten",
+        "category": "Tools & Technologien"
+    },
+    {
+        "question": "Was beschreibt 'Immutable Infrastructure'?",
+        "options": [
+            "Server werden nach Änderungen neu erstellt",
+            "Server werden manuell angepasst",
+            "Keine Änderungen an der Infrastruktur",
+            "Nur Dokumentation der Infrastruktur"
+        ],
+        "answer": "Server werden nach Änderungen neu erstellt",
+        "category": "Automatisierung"
+    },
+    {
+        "question": "Welche Praxis verhindert lange, riskante Releases?",
+        "options": ["Small Batches", "Manual Deployments", "Ignore Feedback", "Big Bang Release"],
+        "answer": "Small Batches",
+        "category": "DevOps-Prinzipien & Kultur"
+    },
+    {
+        "question": "Welche Praxis fördert kontinuierliche Verbesserung?",
+        "options": ["Continuous Learning", "Big Bang Release", "Manual Testing", "Ignore Feedback"],
+        "answer": "Continuous Learning",
+        "category": "Kultur & Zusammenarbeit"
+    },
+    {
+        "question": "Welche Praxis reduziert manuelle Fehler in Deployments?",
+        "options": ["Automatisierung", "Manual Deployments", "Late Testing", "Big Bang Release"],
+        "answer": "Automatisierung",
+        "category": "Automatisierung"
+    },
+    {
+        "question": "Welche Tools dienen zur Build-Automatisierung?",
+        "options": ["Maven", "Gradle", "Jenkins", "Alle oben genannten"],
+        "answer": "Alle oben genannten",
+        "category": "CI/CD"
+    },
+    {
+        "question": "Welche Praxis unterstützt schnelle Fehlerbehebung?",
+        "options": ["Small Batches", "Big Bang Releases", "Manual Testing", "Ignore Feedback"],
+        "answer": "Small Batches",
+        "category": "DevOps-Prinzipien & Kultur"
+    },
+    {
+        "question": "Welche Praxis verhindert Überraschungen in Produktion?",
+        "options": ["Automatisierte Deployments", "Late Testing", "Manuelle Releases", "Ignore Feedback"],
+        "answer": "Automatisierte Deployments",
+        "category": "CI/CD"
+    },
+    {
+        "question": "Welche Praxis unterstützt schnelle Iterationen?",
+        "options": ["Small Batches", "Big Bang Releases", "Wasserfallmodell", "ITIL Prozesse"],
+        "answer": "Small Batches",
+        "category": "DevOps-Prinzipien & Kultur"
+    },
+    {
+        "question": "Welche Metrik misst die Häufigkeit erfolgreicher Deployments?",
+        "options": ["Deployment Frequency", "MTTR", "Lead Time", "Change Failure Rate"],
+        "answer": "Deployment Frequency",
+        "category": "Monitoring & Feedback"
+    },
+    {
+        "question": "Welche DevOps-Praxis verbessert Time-to-Market?",
+        "options": ["CI/CD", "Manual Testing", "Big Bang Release", "Isolation"],
+        "answer": "CI/CD",
+        "category": "CI/CD"
+    },
+    {
+        "question": "Welche Praxis hilft, Feedback früh im Entwicklungsprozess zu erhalten?",
+        "options": ["Shift-Left", "Shift-Right", "Manual Testing", "Big Bang Release"],
+        "answer": "Shift-Left",
+        "category": "DevOps-Prinzipien & Kultur"
+    },
+    {
+        "question": "Welche Praxis fördert kontinuierliches Lernen aus Fehlern?",
+        "options": ["Blameless Postmortem", "Punitive Review", "Ignore Errors", "Late Testing"],
+        "answer": "Blameless Postmortem",
+        "category": "Kultur & Zusammenarbeit"
+    },
+    {
+        "question": "Welche Tools werden für CI/CD Pipelines verwendet?",
+        "options": ["Jenkins", "GitLab CI", "CircleCI", "Alle oben genannten"],
+        "answer": "Alle oben genannten",
+        "category": "CI/CD"
+    },
+    {
+        "question": "Welche Praxis unterstützt Continuous Learning?",
+        "options": ["Review Meetings", "Blameless Postmortem", "Beides", "Keine der oben genannten"],
+        "answer": "Beides",
+        "category": "Kultur & Zusammenarbeit"
+    },
+    {
+        "question": "Welche DevOps-Metrik misst die Zeit bis ein Incident behoben wird?",
+        "options": ["MTTR", "Lead Time", "Deployment Frequency", "Change Failure Rate"],
+        "answer": "MTTR",
+        "category": "Monitoring & Feedback"
+    },
+    {
+        "question": "Welche Vorteile bietet Containerisierung?",
+        "options": [
+            "Portabilität",
+            "Isolierte Umgebungen",
+            "Schnelle Deployments",
+            "Alle oben genannten"
+        ],
+        "answer": "Alle oben genannten",
+        "category": "Tools & Technologien"
+    },
+    {
+        "question": "Welche Praxis verhindert lange, riskante Releases?",
+        "options": ["Small Batches", "Manual Deployments", "Ignore Feedback", "Big Bang Release"],
+        "answer": "Small Batches",
+        "category": "DevOps-Prinzipien & Kultur"
+    },
+    {
+        "question": "Was ist Continuous Deployment?",
+        "options": [
+            "Automatisches Ausrollen von Code nach jedem erfolgreichen Test",
+            "Manuelles Deployment nach Wochen",
+            "Deployment nur bei Fehlern",
+            "Keine Releases"
+        ],
+        "answer": "Automatisches Ausrollen von Code nach jedem erfolgreichen Test",
+        "category": "CI/CD"
+    },
+    {
+        "question": "Welche Praxis reduziert Risiko bei Releases?",
+        "options": ["Small Batches", "Big Bang Releases", "Manual Testing", "Ignore Feedback"],
+        "answer": "Small Batches",
+        "category": "DevOps-Prinzipien & Kultur"
+    },
+    {
+        "question": "Welche Praxis unterstützt schnelle Rollbacks?",
+        "options": ["Automatisierte Deployments", "Manual Deployments", "Big Bang Release", "Ignore Feedback"],
+        "answer": "Automatisierte Deployments",
+        "category": "CI/CD"
+    },
+    {
+        "question": "Welche Vorteile hat Continuous Testing?",
+        "options": [
+            "Fehler früh erkennen",
+            "Bessere Qualität",
+            "Schnellere Releases",
+            "Alle oben genannten"
+        ],
+        "answer": "Alle oben genannten",
+        "category": "CI/CD"
+    },
+    {
+        "question": "Welche DevOps-Praxis verbessert Time-to-Market?",
+        "options": ["CI/CD", "Manual Testing", "Big Bang Release", "Isolation"],
+        "answer": "CI/CD",
+        "category": "CI/CD"
+    },
+    {
+        "question": "Welche Tools dienen der Build-Automatisierung?",
+        "options": ["Maven", "Gradle", "Jenkins", "Alle oben genannten"],
+        "answer": "Alle oben genannten",
+        "category": "CI/CD"
+    },
+    {
+        "question": "Welche Praxis hilft, Feedback früh zu erhalten?",
+        "options": ["Shift-Left", "Shift-Right", "Manual Testing", "Ignore Feedback"],
+        "answer": "Shift-Left",
+        "category": "DevOps-Prinzipien & Kultur"
+    },
+    {
+        "question": "Welche Tools werden für Versionskontrolle genutzt?",
+        "options": ["Git", "SVN", "Mercurial", "Alle oben genannten"],
+        "answer": "Alle oben genannten",
+        "category": "Tools & Technologien"
+    },
+    {
+        "question": "Welche Metrik misst die Häufigkeit fehlerhafter Deployments?",
+        "options": ["Change Failure Rate", "MTTR", "Lead Time", "Deployment Frequency"],
+        "answer": "Change Failure Rate",
+        "category": "Monitoring & Feedback"
+    },
+    {
+        "question": "Welche Praxis fördert Teamkommunikation?",
+        "options": ["Daily Standups", "Big Bang Release", "Isolation", "Ignore Feedback"],
+        "answer": "Daily Standups",
+        "category": "Kultur & Zusammenarbeit"
+    },
+    {
+        "question": "Welche Praxis reduziert manuelle Fehler?",
+        "options": ["Automatisierung", "Manual Deployments", "Late Testing", "Big Bang Release"],
+        "answer": "Automatisierung",
+        "category": "Automatisierung"
+    },
+    {
+        "question": "Welche Vorteile hat Continuous Deployment?",
+        "options": [
+            "Automatisches Ausrollen von Code",
+            "Manuelles Deployment",
+            "Release nur einmal im Jahr",
+            "Keine Tests"
+        ],
+        "answer": "Automatisches Ausrollen von Code",
+        "category": "CI/CD"
+    },
+    {
+        "question": "Welche Praxis unterstützt schnelle Rollbacks?",
+        "options": ["Automatisierte Deployments", "Manual Deployments", "Big Bang Release", "Ignore Feedback"],
+        "answer": "Automatisierte Deployments",
+        "category": "CI/CD"
+    },
+    {
+        "question": "Welche Praxis hilft, Feedback früh im Prozess zu erhalten?",
+        "options": ["Shift-Left", "Shift-Right", "Manual Testing", "Big Bang Release"],
+        "answer": "Shift-Left",
+        "category": "DevOps-Prinzipien & Kultur"
+    },
+    {
+        "question": "Welche Metrik misst die Zeit von Code bis Deployment?",
+        "options": ["Lead Time", "MTTR", "Deployment Frequency", "Change Failure Rate"],
+        "answer": "Lead Time",
+        "category": "Monitoring & Feedback"
+    },
+    {
+        "question": "Welche Metrik misst die Häufigkeit erfolgreicher Deployments?",
+        "options": ["Deployment Frequency", "MTTR", "Lead Time", "Change Failure Rate"],
+        "answer": "Deployment Frequency",
+        "category": "Monitoring & Feedback"
+    },
+    {
+        "question": "Welche DevOps-Praxis verbessert Time-to-Market?",
+        "options": ["CI/CD", "Manual Testing", "Big Bang Release", "Isolation"],
+        "answer": "CI/CD",
+        "category": "CI/CD"
+    },
+    {
+        "question": "Welche Praxis unterstützt kontinuierliches Lernen aus Fehlern?",
+        "options": ["Blameless Postmortem", "Punitive Review", "Ignore Errors", "Late Testing"],
+        "answer": "Blameless Postmortem",
+        "category": "Kultur & Zusammenarbeit"
+    },
+    {
+        "question": "Welche Praxis verhindert lange, riskante Releases?",
+        "options": ["Small Batches", "Manual Deployments", "Ignore Feedback", "Big Bang Release"],
+        "answer": "Small Batches",
+        "category": "DevOps-Prinzipien & Kultur"
+    },
+    {
+        "question": "Welche Tools werden für CI/CD Pipelines genutzt?",
+        "options": ["Jenkins", "GitLab CI", "CircleCI", "Alle oben genannten"],
+        "answer": "Alle oben genannten",
+        "category": "CI/CD"
+    },
+    {
+        "question": "Welche Tools dienen der Build-Automatisierung?",
+        "options": ["Maven", "Gradle", "Jenkins", "Alle oben genannten"],
+        "answer": "Alle oben genannten",
+        "category": "CI/CD"
+    },
+    {
+        "question": "Welche Containerisierungstechnologie ist in DevOps populär?",
+        "options": ["Docker", "Jenkins", "Ansible", "GitHub"],
+        "answer": "Docker",
+        "category": "Tools & Technologien"
+    },
+    {
+        "question": "Welches Tool wird für Container-Orchestrierung genutzt?",
+        "options": ["Kubernetes", "Docker", "Git", "Jenkins"],
+        "answer": "Kubernetes",
+        "category": "Tools & Technologien"
+    },
+    {
+        "question": "Welche Praxis fördert kontinuierliche Verbesserung?",
+        "options": ["Continuous Learning", "Big Bang Release", "Manual Testing", "Ignore Feedback"],
+        "answer": "Continuous Learning",
+        "category": "Kultur & Zusammenarbeit"
+    },
+    {
+        "question": "Welche Praxis unterstützt schnelle Fehlerbehebung?",
+        "options": ["Small Batches", "Big Bang Releases", "Manual Testing", "Ignore Feedback"],
+        "answer": "Small Batches",
+        "category": "DevOps-Prinzipien & Kultur"
+    },
+    {
+        "question": "Welche Vorteile bietet Automatisierung?",
+        "options": [
+            "Reduzierte Fehler",
+            "Schnellere Deployments",
+            "Wiederholbare Prozesse",
+            "Alle oben genannten"
+        ],
+        "answer": "Alle oben genannten",
+        "category": "Automatisierung"
+    },
+    {
+        "question": "Welche Praxis unterstützt Continuous Learning?",
+        "options": ["Review Meetings", "Blameless Postmortem", "Beides", "Keine der oben genannten"],
+        "answer": "Beides",
+        "category": "Kultur & Zusammenarbeit"
+    },
+    {
+        "question": "Welche DevOps-Metrik misst die Zeit bis ein Incident behoben wird?",
+        "options": ["MTTR", "Lead Time", "Deployment Frequency", "Change Failure Rate"],
+        "answer": "MTTR",
+        "category": "Monitoring & Feedback"
+    },
+    {
+        "question": "Welche Vorteile bietet Containerisierung?",
+        "options": [
+            "Portabilität",
+            "Isolierte Umgebungen",
+            "Schnelle Deployments",
+            "Alle oben genannten"
+        ],
+        "answer": "Alle oben genannten",
+        "category": "Tools & Technologien"
+    },
+    {
+        "question": "Was beschreibt 'Immutable Infrastructure'?",
+        "options": [
+            "Server werden nach Änderungen neu erstellt",
+            "Server werden manuell angepasst",
+            "Keine Änderungen an der Infrastruktur",
+            "Nur Dokumentation der Infrastruktur"
+        ],
+        "answer": "Server werden nach Änderungen neu erstellt",
+        "category": "Automatisierung"
+    },
+    {
+        "question": "Welche Praxis reduziert Risiko bei Releases?",
+        "options": ["Small Batches", "Big Bang Releases", "Manual Testing", "Ignore Feedback"],
+        "answer": "Small Batches",
+        "category": "DevOps-Prinzipien & Kultur"
+    },
+    {
+        "question": "Was ist Continuous Testing?",
+        "options": [
+            "Testen während des gesamten Entwicklungsprozesses",
+            "Testen nur am Ende",
+            "Keine Tests durchführen",
+            "Nur Security-Tests"
+        ],
+        "answer": "Testen während des gesamten Entwicklungsprozesses",
+        "category": "CI/CD"
+    },
+    {
+        "question": "Welche Praxis hilft, Feedback früh im Entwicklungsprozess zu erhalten?",
+        "options": ["Shift-Left", "Shift-Right", "Manual Testing", "Big Bang Release"],
+        "answer": "Shift-Left",
+        "category": "DevOps-Prinzipien & Kultur"
+    },
+    {
+        "question": "Welche Praxis unterstützt schnelle Rollbacks?",
+        "options": ["Automatisierte Deployments", "Manual Deployments", "Big Bang Release", "Ignore Feedback"],
+        "answer": "Automatisierte Deployments",
+        "category": "CI/CD"
+    },
+    {
+        "question": "Welche Praxis verhindert lange, riskante Releases?",
+        "options": ["Small Batches", "Manual Deployments", "Ignore Feedback", "Big Bang Release"],
+        "answer": "Small Batches",
+        "category": "DevOps-Prinzipien & Kultur"
+    },
+    {
+        "question": "Welche DevOps-Praxis verbessert Time-to-Market?",
+        "options": ["CI/CD", "Manual Testing", "Big Bang Release", "Isolation"],
+        "answer": "CI/CD",
+        "category": "CI/CD"
+    },
+    {
+        "question": "Welche Metrik misst die Zeit von Code bis Deployment?",
+        "options": ["Lead Time", "MTTR", "Deployment Frequency", "Change Failure Rate"],
+        "answer": "Lead Time",
+        "category": "Monitoring & Feedback"
+    },
+    {
+        "question": "Welche Metrik misst die Häufigkeit fehlerhafter Deployments?",
+        "options": ["Change Failure Rate", "MTTR", "Lead Time", "Deployment Frequency"],
+        "answer": "Change Failure Rate",
+        "category": "Monitoring & Feedback"
+    },
+    {
+        "question": "Welche Praxis unterstützt Continuous Learning?",
+        "options": ["Review Meetings", "Blameless Postmortem", "Beides", "Keine der oben genannten"],
+        "answer": "Beides",
+        "category": "Kultur & Zusammenarbeit"
+    },
+    {
+        "question": "Welche Praxis reduziert manuelle Fehler?",
+        "options": ["Automatisierung", "Manual Deployments", "Late Testing", "Big Bang Release"],
+        "answer": "Automatisierung",
+        "category": "Automatisierung"
+    },
+    {
+        "question": "Welche Tools werden für CI/CD Pipelines genutzt?",
+        "options": ["Jenkins", "GitLab CI", "CircleCI", "Alle oben genannten"],
+        "answer": "Alle oben genannten",
+        "category": "CI/CD"
+    },
+    {
+        "question": "Welche Tools dienen der Build-Automatisierung?",
+        "options": ["Maven", "Gradle", "Jenkins", "Alle oben genannten"],
+        "answer": "Alle oben genannten",
+        "category": "CI/CD"
+    },
+    {
+        "question": "Welche Containerisierungstechnologie ist in DevOps populär?",
+        "options": ["Docker", "Jenkins", "Ansible", "GitHub"],
+        "answer": "Docker",
+        "category": "Tools & Technologien"
+    },
+    {
+        "question": "Welches Tool wird für Container-Orchestrierung genutzt?",
+        "options": ["Kubernetes", "Docker", "Git", "Jenkins"],
+        "answer": "Kubernetes",
+        "category": "Tools & Technologien"
+    },
+    {
+        "question": "Welche Praxis fördert kontinuierliche Verbesserung?",
+        "options": ["Continuous Learning", "Big Bang Release", "Manual Testing", "Ignore Feedback"],
+        "answer": "Continuous Learning",
+        "category": "Kultur & Zusammenarbeit"
+    },
+    {
+        "question": "Welche Praxis unterstützt schnelle Fehlerbehebung?",
+        "options": ["Small Batches", "Big Bang Releases", "Manual Testing", "Ignore Feedback"],
+        "answer": "Small Batches",
+        "category": "DevOps-Prinzipien & Kultur"
+    },
+    {
+        "question": "Welche Vorteile bietet Automatisierung?",
+        "options": [
+            "Reduzierte Fehler",
+            "Schnellere Deployments",
+            "Wiederholbare Prozesse",
+            "Alle oben genannten"
+        ],
+        "answer": "Alle oben genannten",
+        "category": "Automatisierung"
+    },
+    {
+        "question": "Was ist Continuous Testing?",
+        "options": [
+            "Testen während des gesamten Entwicklungsprozesses",
+            "Testen nur am Ende",
+            "Keine Tests durchführen",
+            "Nur Security-Tests"
+        ],
+        "answer": "Testen während des gesamten Entwicklungsprozesses",
+        "category": "CI/CD"
+    },
+    {
+        "question": "Welche Praxis hilft, Risiken bei Releases zu reduzieren?",
+        "options": ["Small Batches", "Big Bang Releases", "Manual Testing", "Ignore Feedback"],
+        "answer": "Small Batches",
+        "category": "DevOps-Prinzipien & Kultur"
+    },
+    {
+        "question": "Welche Praxis unterstützt Feedback früh im Entwicklungsprozess?",
+        "options": ["Shift-Left", "Shift-Right", "Manual Testing", "Big Bang Release"],
+        "answer": "Shift-Left",
+        "category": "DevOps-Prinzipien & Kultur"
+    },
+    {
+        "question": "Welche DevOps-Metrik misst die Zeit bis ein Incident behoben wird?",
+        "options": ["MTTR", "Lead Time", "Deployment Frequency", "Change Failure Rate"],
+        "answer": "MTTR",
+        "category": "Monitoring & Feedback"
+    },
+    {
+        "question": "Welche Vorteile bietet Containerisierung?",
+        "options": [
+            "Portabilität",
+            "Isolierte Umgebungen",
+            "Schnelle Deployments",
+            "Alle oben genannten"
+        ],
+        "answer": "Alle oben genannten",
+        "category": "Tools & Technologien"
+    },
+    {
+        "question": "Was beschreibt 'Immutable Infrastructure'?",
+        "options": [
+            "Server werden nach Änderungen neu erstellt",
+            "Server werden manuell angepasst",
+            "Keine Änderungen an der Infrastruktur",
+            "Nur Dokumentation der Infrastruktur"
+        ],
+        "answer": "Server werden nach Änderungen neu erstellt",
+        "category": "Automatisierung"
+    },
+    {
+        "question": "Welche DevOps-Praxis verbessert Time-to-Market?",
+        "options": ["CI/CD", "Manual Testing", "Big Bang Release", "Isolation"],
+        "answer": "CI/CD",
+        "category": "CI/CD"
+    },
+    {
+        "question": "Welche Praxis verhindert lange, riskante Releases?",
+        "options": ["Small Batches", "Manual Deployments", "Ignore Feedback", "Big Bang Release"],
+        "answer": "Small Batches",
+        "category": "DevOps-Prinzipien & Kultur"
+    },
+    {
+        "question": "Welche Praxis reduziert Risiko bei Releases?",
+        "options": ["Small Batches", "Big Bang Releases", "Manual Testing", "Ignore Feedback"],
+        "answer": "Small Batches",
+        "category": "DevOps-Prinzipien & Kultur"
+    },
+    {
+        "question": "Welche Praxis unterstützt Continuous Learning?",
+        "options": ["Review Meetings", "Blameless Postmortem", "Beides", "Keine der oben genannten"],
+        "answer": "Beides",
+        "category": "Kultur & Zusammenarbeit"
+    },
+    {
+        "question": "Welche Praxis fördert Vertrauen im Team?",
+        "options": ["Culture", "Automation", "Tools", "Monitoring"],
+        "answer": "Culture",
+        "category": "DevOps-Prinzipien & Kultur"
+    },
+    {
+        "question": "Welche Praxis reduziert manuelle Fehler in Deployments?",
+        "options": ["Automatisierung", "Manual Deployments", "Late Testing", "Big Bang Release"],
+        "answer": "Automatisierung",
+        "category": "Automatisierung"
+    },
+    {
+        "question": "Was beschreibt Continuous Integration?",
+        "options": [
+            "Häufige Integration von Code in das Repository",
+            "Einmal im Monat Integration",
+            "Kein Testen während der Integration",
+            "Nur manuelle Tests"
+        ],
+        "answer": "Häufige Integration von Code in das Repository",
+        "category": "CI/CD"
+    },
+    {
+        "question": "Welche Praxis unterstützt schnelle Fehlerbehebung?",
+        "options": ["Small Batches", "Big Bang Releases", "Manual Testing", "Ignore Feedback"],
+        "answer": "Small Batches",
+        "category": "DevOps-Prinzipien & Kultur"
+    },
+    {
+        "question": "Welche Vorteile bietet Continuous Deployment?",
+        "options": [
+            "Automatisches Ausrollen von Code nach jedem erfolgreichen Test",
+            "Manuelles Deployment einmal pro Woche",
+            "Deployment nur bei Fehlern",
+            "Keine Releases"
+        ],
+        "answer": "Automatisches Ausrollen von Code nach jedem erfolgreichen Test",
+        "category": "CI/CD"
+    },
+    {
+        "question": "Welche Praxis unterstützt schnelle Rollbacks?",
+        "options": ["Automatisierte Deployments", "Manual Deployments", "Big Bang Release", "Ignore Feedback"],
+        "answer": "Automatisierte Deployments",
+        "category": "CI/CD"
+    },
+    {
+        "question": "Welche Praxis hilft, Feedback früh im Prozess zu erhalten?",
+        "options": ["Shift-Left", "Shift-Right", "Manual Testing", "Big Bang Release"],
+        "answer": "Shift-Left",
+        "category": "DevOps-Prinzipien & Kultur"
+    },
+    {
+        "question": "Welche Metrik misst die Zeit von Code bis Deployment?",
+        "options": ["Lead Time", "MTTR", "Deployment Frequency", "Change Failure Rate"],
+        "answer": "Lead Time",
+        "category": "Monitoring & Feedback"
+    },
+    {
+        "question": "Welche Metrik misst die Häufigkeit fehlerhafter Deployments?",
+        "options": ["Change Failure Rate", "MTTR", "Lead Time", "Deployment Frequency"],
+        "answer": "Change Failure Rate",
+        "category": "Monitoring & Feedback"
+    },
+    {
+        "question": "Welche DevOps-Praxis verbessert Time-to-Market?",
+        "options": ["CI/CD", "Manual Testing", "Big Bang Release", "Isolation"],
+        "answer": "CI/CD",
+        "category": "CI/CD"
+    },
+    {
+        "question": "Welche Praxis unterstützt Continuous Learning?",
+        "options": ["Review Meetings", "Blameless Postmortem", "Beides", "Keine der oben genannten"],
+        "answer": "Beides",
+        "category": "Kultur & Zusammenarbeit"
+    },
+    {
+        "question": "Welche Vorteile bietet Automatisierung?",
+        "options": [
+            "Reduzierte Fehler",
+            "Schnellere Deployments",
+            "Wiederholbare Prozesse",
+            "Alle oben genannten"
+        ],
+        "answer": "Alle oben genannten",
+        "category": "Automatisierung"
+    },
+    {
+        "question": "Welche Praxis verhindert lange, riskante Releases?",
+        "options": ["Small Batches", "Manual Deployments", "Ignore Feedback", "Big Bang Release"],
+        "answer": "Small Batches",
+        "category": "DevOps-Prinzipien & Kultur"
+    },
+    {
+        "question": "Was beschreibt Continuous Testing?",
+        "options": [
+            "Testen während des gesamten Entwicklungsprozesses",
+            "Testen nur am Ende",
+            "Keine Tests durchführen",
+            "Nur Security-Tests"
+        ],
+        "answer": "Testen während des gesamten Entwicklungsprozesses",
+        "category": "CI/CD"
+    },
+    {
+        "question": "Welche Praxis reduziert Risiko bei Releases?",
+        "options": ["Small Batches", "Big Bang Releases", "Manual Testing", "Ignore Feedback"],
+        "answer": "Small Batches",
+        "category": "DevOps-Prinzipien & Kultur"
+    },
+    {
+        "question": "Welche Praxis unterstützt Feedback früh im Entwicklungsprozess?",
+        "options": ["Shift-Left", "Shift-Right", "Manual Testing", "Big Bang Release"],
+        "answer": "Shift-Left",
+        "category": "DevOps-Prinzipien & Kultur"
+    },
+    {
+        "question": "Welche Containerisierungstechnologie ist in DevOps populär?",
+        "options": ["Docker", "Jenkins", "Ansible", "GitHub"],
+        "answer": "Docker",
+        "category": "Tools & Technologien"
+    },
+    {
+        "question": "Welches Tool wird für Container-Orchestrierung genutzt?",
+        "options": ["Kubernetes", "Docker", "Git", "Jenkins"],
+        "answer": "Kubernetes",
+        "category": "Tools & Technologien"
+    },
+    {
+        "question": "Welche Praxis fördert kontinuierliche Verbesserung?",
+        "options": ["Continuous Learning", "Big Bang Release", "Manual Testing", "Ignore Feedback"],
+        "answer": "Continuous Learning",
+        "category": "Kultur & Zusammenarbeit"
+    },
+    {
+        "question": "Welche Praxis unterstützt schnelle Iterationen?",
+        "options": ["Small Batches", "Big Bang Releases", "Wasserfallmodell", "ITIL Prozesse"],
+        "answer": "Small Batches",
+        "category": "DevOps-Prinzipien & Kultur"
+    },
+    {
+        "question": "Welche Praxis hilft, Risiken bei Releases zu reduzieren?",
+        "options": ["Small Batches", "Big Bang Releases", "Manual Testing", "Ignore Feedback"],
+        "answer": "Small Batches",
+        "category": "DevOps-Prinzipien & Kultur"
+    },
+    {
+        "question": "Welche DevOps-Praxis unterstützt schnelle Fehlerbehebung?",
+        "options": ["Small Batches", "Big Bang Releases", "Manual Testing", "Ignore Feedback"],
+        "answer": "Small Batches",
+        "category": "DevOps-Prinzipien & Kultur"
+    },
+    {
+        "question": "Welche Vorteile bietet Containerisierung?",
+        "options": [
+            "Portabilität",
+            "Isolierte Umgebungen",
+            "Schnelle Deployments",
+            "Alle oben genannten"
+        ],
+        "answer": "Alle oben genannten",
+        "category": "Tools & Technologien"
+    },
+    {
+        "question": "Welche Praxis unterstützt schnelle Rollbacks?",
+        "options": ["Automatisierte Deployments", "Manual Deployments", "Big Bang Release", "Ignore Feedback"],
+        "answer": "Automatisierte Deployments",
+        "category": "CI/CD"
+    },
+    {
+        "question": "Welche Praxis reduziert manuelle Fehler in Deployments?",
+        "options": ["Automatisierung", "Manual Deployments", "Late Testing", "Big Bang Release"],
+        "answer": "Automatisierung",
+        "category": "Automatisierung"
+    },
+    {
+        "question": "Welche Praxis fördert Vertrauen im Team?",
+        "options": ["Culture", "Automation", "Tools", "Monitoring"],
+        "answer": "Culture",
+        "category": "DevOps-Prinzipien & Kultur"
+    },
+    {
+        "question": "Welche Praxis hilft, Feedback früh im Prozess zu erhalten?",
+        "options": ["Shift-Left", "Shift-Right", "Manual Testing", "Big Bang Release"],
+        "answer": "Shift-Left",
+        "category": "DevOps-Prinzipien & Kultur"
+    },
+    {
+        "question": "Welche Praxis verhindert lange, riskante Releases?",
+        "options": ["Small Batches", "Manual Deployments", "Ignore Feedback", "Big Bang Release"],
+        "answer": "Small Batches",
+        "category": "DevOps-Prinzipien & Kultur"
+    },
+    {
+        "question": "Welche Praxis verbessert Time-to-Market?",
+        "options": ["CI/CD", "Manual Testing", "Big Bang Release", "Isolation"],
+        "answer": "CI/CD",
+        "category": "CI/CD"
+    },
+    {
+        "question": "Welche Metrik misst die Zeit von Code bis Deployment?",
+        "options": ["Lead Time", "MTTR", "Deployment Frequency", "Change Failure Rate"],
+        "answer": "Lead Time",
+        "category": "Monitoring & Feedback"
+    },
+    {
+        "question": "Welche Metrik misst die Häufigkeit fehlerhafter Deployments?",
+        "options": ["Change Failure Rate", "MTTR", "Lead Time", "Deployment Frequency"],
+        "answer": "Change Failure Rate",
+        "category": "Monitoring & Feedback"
+    },
+    {
+        "question": "Welche Praxis unterstützt Continuous Learning?",
+        "options": ["Review Meetings", "Blameless Postmortem", "Beides", "Keine der oben genannten"],
+        "answer": "Beides",
+        "category": "Kultur & Zusammenarbeit"
+    },
+    {
+        "question": "Welche Vorteile bietet Automatisierung?",
+        "options": [
+            "Reduzierte Fehler",
+            "Schnellere Deployments",
+            "Wiederholbare Prozesse",
+            "Alle oben genannten"
+        ],
+        "answer": "Alle oben genannten",
+        "category": "Automatisierung"
+    },
+    {
+        "question": "Welche Praxis hilft, Risiken bei Releases zu reduzieren?",
+        "options": ["Small Batches", "Big Bang Releases", "Manual Testing", "Ignore Feedback"],
+        "answer": "Small Batches",
+        "category": "DevOps-Prinzipien & Kultur"
+    },
+    {
+        "question": "Was beschreibt Continuous Testing?",
+        "options": [
+            "Testen während des gesamten Entwicklungsprozesses",
+            "Testen nur am Ende",
+            "Keine Tests durchführen",
+            "Nur Security-Tests"
+        ],
+        "answer": "Testen während des gesamten Entwicklungsprozesses",
+        "category": "CI/CD"
+    },
+    {
+        "question": "Welche Containerisierungstechnologie ist in DevOps populär?",
+        "options": ["Docker", "Jenkins", "Ansible", "GitHub"],
+        "answer": "Docker",
+        "category": "Tools & Technologien"
+    },
+    {
+        "question": "Welches Tool wird für Container-Orchestrierung genutzt?",
+        "options": ["Kubernetes", "Docker", "Git", "Jenkins"],
+        "answer": "Kubernetes",
+        "category": "Tools & Technologien"
+    },
+    {
+        "question": "Welche Praxis fördert kontinuierliche Verbesserung?",
+        "options": ["Continuous Learning", "Big Bang Release", "Manual Testing", "Ignore Feedback"],
+        "answer": "Continuous Learning",
+        "category": "Kultur & Zusammenarbeit"
+    },
+    {
+        "question": "Welche Praxis unterstützt schnelle Iterationen?",
+        "options": ["Small Batches", "Big Bang Releases", "Wasserfallmodell", "ITIL Prozesse"],
+        "answer": "Small Batches",
+        "category": "DevOps-Prinzipien & Kultur"
+    },
+    {
+        "question": "Welche Praxis unterstützt schnelle Fehlerbehebung?",
+        "options": ["Small Batches", "Big Bang Releases", "Manual Testing", "Ignore Feedback"],
+        "answer": "Small Batches",
+        "category": "DevOps-Prinzipien & Kultur"
+    },
+    {
+        "question": "Welche Vorteile bietet Containerisierung?",
+        "options": [
+            "Portabilität",
+            "Isolierte Umgebungen",
+            "Schnelle Deployments",
+            "Alle oben genannten"
+        ],
+        "answer": "Alle oben genannten",
+        "category": "Tools & Technologien"
+    },
+    {
+        "question": "Was beschreibt 'Immutable Infrastructure'?",
+        "options": [
+            "Server werden nach Änderungen neu erstellt",
+            "Server werden manuell angepasst",
+            "Keine Änderungen an der Infrastruktur",
+            "Nur Dokumentation der Infrastruktur"
+        ],
+        "answer": "Server werden nach Änderungen neu erstellt",
+        "category": "Automatisierung"
+    },
+    {
+        "question": "Welche Praxis verhindert Überraschungen in Produktion?",
+        "options": ["Automatisierte Deployments", "Late Testing", "Manuelle Releases", "Ignore Feedback"],
+        "answer": "Automatisierte Deployments",
+        "category": "CI/CD"
+    },
+    {
+        "question": "Welche Vorteile hat Continuous Deployment?",
+        "options": [
+            "Automatisches Ausrollen von Code nach jedem erfolgreichen Test",
+            "Manuelles Deployment einmal pro Woche",
+            "Deployment nur bei Fehlern",
+            "Keine Releases"
+        ],
+        "answer": "Automatisches Ausrollen von Code nach jedem erfolgreichen Test",
+        "category": "CI/CD"
+    },
+    {
+        "question": "Welche Praxis unterstützt schnelle Iterationen?",
+        "options": ["Small Batches", "Big Bang Releases", "Wasserfallmodell", "ITIL Prozesse"],
+        "answer": "Small Batches",
+        "category": "DevOps-Prinzipien & Kultur"
+    },
+    {
+        "question": "Welche DevOps-Praxis verbessert Time-to-Market?",
+        "options": ["CI/CD", "Manual Testing", "Big Bang Release", "Isolation"],
+        "answer": "CI/CD",
+        "category": "CI/CD"
+    },
+    {
+        "question": "Welche Praxis unterstützt Feedback früh im Entwicklungsprozess?",
+        "options": ["Shift-Left", "Shift-Right", "Manual Testing", "Big Bang Release"],
+        "answer": "Shift-Left",
+        "category": "DevOps-Prinzipien & Kultur"
+    },
+    {
+        "question": "Welche Praxis unterstützt Continuous Learning?",
+        "options": ["Review Meetings", "Blameless Postmortem", "Beides", "Keine der oben genannten"],
+        "answer": "Beides",
+        "category": "Kultur & Zusammenarbeit"
+    },
+    {
+        "question": "Welche Praxis reduziert Risiko bei Releases?",
+        "options": ["Small Batches", "Big Bang Releases", "Manual Testing", "Ignore Feedback"],
+        "answer": "Small Batches",
+        "category": "DevOps-Prinzipien & Kultur"
+    },
+    {
+        "question": "Welche Praxis unterstützt schnelle Fehlerbehebung?",
+        "options": ["Small Batches", "Big Bang Releases", "Manual Testing", "Ignore Feedback"],
+        "answer": "Small Batches",
+        "category": "DevOps-Prinzipien & Kultur"
+    },
+    {
+        "question": "Welche Praxis fördert kontinuierliche Verbesserung?",
+        "options": ["Continuous Learning", "Big Bang Release", "Manual Testing", "Ignore Feedback"],
+        "answer": "Continuous Learning",
+        "category": "Kultur & Zusammenarbeit"
+    },
+    {
+        "question": "Welche Praxis verhindert lange, riskante Releases?",
+        "options": ["Small Batches", "Manual Deployments", "Ignore Feedback", "Big Bang Release"],
+        "answer": "Small Batches",
+        "category": "DevOps-Prinzipien & Kultur"
+    },
+    {
+        "question": "Welche Praxis unterstützt Feedback früh im Entwicklungsprozess?",
+        "options": ["Shift-Left", "Shift-Right", "Manual Testing", "Big Bang Release"],
+        "answer": "Shift-Left",
+        "category": "DevOps-Prinzipien & Kultur"
+    },
+    {
+        "question": "Welche Praxis unterstützt Continuous Learning?",
+        "options": ["Review Meetings", "Blameless Postmortem", "Beides", "Keine der oben genannten"],
+        "answer": "Beides",
+        "category": "Kultur & Zusammenarbeit"
+    },
+    {
+        "question": "Welche Praxis unterstützt schnelle Rollbacks?",
+        "options": ["Automatisierte Deployments", "Manual Deployments", "Big Bang Release", "Ignore Feedback"],
+        "answer": "Automatisierte Deployments",
+        "category": "CI/CD"
+    },
+    {
+        "question": "Welche Vorteile bietet Automatisierung?",
+        "options": [
+            "Reduzierte Fehler",
+            "Schnellere Deployments",
+            "Wiederholbare Prozesse",
+            "Alle oben genannten"
+        ],
+        "answer": "Alle oben genannten",
+        "category": "Automatisierung"
+    },
+    {
+        "question": "Was beschreibt 'Immutable Infrastructure'?",
+        "options": [
+            "Server werden nach Änderungen neu erstellt",
+            "Server werden manuell angepasst",
+            "Keine Änderungen an der Infrastruktur",
+            "Nur Dokumentation der Infrastruktur"
+        ],
+        "answer": "Server werden nach Änderungen neu erstellt",
+        "category": "Automatisierung"
+    },
+    {
+        "question": "Welche Praxis verbessert Time-to-Market?",
+        "options": ["CI/CD", "Manual Testing", "Big Bang Release", "Isolation"],
+        "answer": "CI/CD",
+        "category": "CI/CD"
+    },
+    {
+        "question": "Welche Metrik misst die Zeit von Code bis Deployment?",
+        "options": ["Lead Time", "MTTR", "Deployment Frequency", "Change Failure Rate"],
+        "answer": "Lead Time",
+        "category": "Monitoring & Feedback"
+    },
+    {
+        "question": "Welche Metrik misst die Häufigkeit fehlerhafter Deployments?",
+        "options": ["Change Failure Rate", "MTTR", "Lead Time", "Deployment Frequency"],
+        "answer": "Change Failure Rate",
+        "category": "Monitoring & Feedback"
+    },
+    {
+        "question": "Welche Praxis verhindert Überraschungen in Produktion?",
+        "options": ["Automatisierte Deployments", "Late Testing", "Manuelle Releases", "Ignore Feedback"],
+        "answer": "Automatisierte Deployments",
+        "category": "CI/CD"
+    },
+    {
+        "question": "Welche Praxis reduziert manuelle Fehler in Deployments?",
+        "options": ["Automatisierung", "Manual Deployments", "Late Testing", "Big Bang Release"],
+        "answer": "Automatisierung",
+        "category": "Automatisierung"
+    },
+    {
+        "question": "Welche Containerisierungstechnologie ist in DevOps populär?",
+        "options": ["Docker", "Jenkins", "Ansible", "GitHub"],
+        "answer": "Docker",
+        "category": "Tools & Technologien"
+    },
+    {
+        "question": "Welches Tool wird für Container-Orchestrierung genutzt?",
+        "options": ["Kubernetes", "Docker", "Git", "Jenkins"],
+        "answer": "Kubernetes",
+        "category": "Tools & Technologien"
+    },
+    {
+        "question": "Welche Praxis unterstützt schnelle Iterationen?",
+        "options": ["Small Batches", "Big Bang Releases", "Wasserfallmodell", "ITIL Prozesse"],
+        "answer": "Small Batches",
+        "category": "DevOps-Prinzipien & Kultur"
+    },
+    {
+        "question": "Welche Vorteile hat Continuous Deployment?",
+        "options": [
+            "Automatisches Ausrollen von Code nach jedem erfolgreichen Test",
+            "Manuelles Deployment einmal pro Woche",
+            "Deployment nur bei Fehlern",
+            "Keine Releases"
+        ],
+        "answer": "Automatisches Ausrollen von Code nach jedem erfolgreichen Test",
+        "category": "CI/CD"
+    },
+    {
+        "question": "Welche DevOps-Praxis unterstützt schnelle Fehlerbehebung?",
+        "options": ["Small Batches", "Big Bang Releases", "Manual Testing", "Ignore Feedback"],
+        "answer": "Small Batches",
+        "category": "DevOps-Prinzipien & Kultur"
+    },
+    {
+        "question": "Welche Praxis unterstützt Continuous Learning?",
+        "options": ["Review Meetings", "Blameless Postmortem", "Beides", "Keine der oben genannten"],
+        "answer": "Beides",
+        "category": "Kultur & Zusammenarbeit"
+    }
+]
+
+
+
+
+
+
+
+
+
