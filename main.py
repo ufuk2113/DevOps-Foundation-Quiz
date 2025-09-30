@@ -3,6 +3,21 @@ import random
 import tkinter as tk
 from tkinter import messagebox
 
+
+""" 
+Features, die hier implementiert werden
+
+JSON-Fragen werden geladen (Schritt 1)
+
+Startdialog: Name + Anzahl Fragen (Schritt 2)
+
+Quizfenster mit Fragen + Radiobuttons (Schritt 3)
+
+Antwort prüfen + Punkteberechnung + Feedback (Schritt 4)
+
+"""
+
+
 # ----------------------------
 # 1️⃣ Fragen aus JSON laden
 # ----------------------------
