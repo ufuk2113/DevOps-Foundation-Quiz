@@ -7,7 +7,7 @@ Die Anwendung zeigt Multiple-Choice-Fragen mit Kategorien, speichert Ergebnisse 
 
 ## 🚀 Features
 
-- **Fragenpool mit 300 Fragen** (JSON-Datei `fragen.json`)
+- **Fragenpool mit 261 Fragen** (JSON-Datei `fragen.json`)
 - **Startdialog** mit Eingabe von Name und Anzahl Fragen
 - **Quiz-Fenster** mit Anzeige der Fragen & Antwortmöglichkeiten
 - **Kategorie-Anzeige** pro Frage
