@@ -14,6 +14,7 @@ venv/
 
 # Fragen-Tracking (soll nicht versioniert werden)
 asked_questions.json
+used_questions.json
 
 # OS-spezifische Dateien
 .DS_Store
