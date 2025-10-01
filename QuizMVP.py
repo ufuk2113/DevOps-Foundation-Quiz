@@ -211,6 +211,19 @@ class QuizPresenter:
         self.timer_id = None
         self.load_question()
         self.view.mainloop()
+    
+    #Zeigt verbleibende Zeit an, zählt jede Sekunde runter. 
+    #Wenn Zeit 0 erreicht → Frage als falsch markieren, richtige Antwort anzeigen, next_question() aufrufen.   
+    def update_timer(self):
+        if self.time_left > 0:
+            self.view.timer_label.config(text=f"Verbleibende Zeit: {self.time_left} Sekunden")
+            self.time_left -= 1
+            self.timer_id = self.view.after(1000, self.update_timer)
+        else:
+            question = self.questions[self.model.current_question_index]
+            messagebox.showinfo("Zeit abgelaufen!", f"Die Zeit ist abgelaufen.\nRichtige Antwort: {question['answer']}")
+            self.model.record_review(question, [], False)
+            self.next_question()
 
     def load_question(self):
         if self.model.current_question_index >= len(self.questions):
@@ -220,7 +233,13 @@ class QuizPresenter:
         q = self.questions[self.model.current_question_index]
         self.view.show_question(q['question'], q['category'], q['options'])
         self.view.update_score_progress(self.model.score, self.model.current_question_index, self.quiz_size)
-
+        # Timer starten
+        self.time_left = 60
+        if self.timer_id:
+            self.view.after_cancel(self.timer_id)
+        self.update_timer()
+        
+        
     def check_answer(self):
         selected = self.view.get_selected_options()
         if not selected:
