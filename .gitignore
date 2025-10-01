@@ -1,0 +1,20 @@
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+.env/
+
+# Export-Dateien (Ergebnisse)
+*.csv
+*.pdf
+
+# Fragen-Tracking (soll nicht versioniert werden)
+asked_questions.json
+
+# OS-spezifische Dateien
+.DS_Store
+Thumbs.db
