@@ -13,7 +13,7 @@ import os
 
 # ------------------- Model -------------------
 class QuizModel:
-    def __init__(self, questions_file="frage.json", used_file="used_questions.json"):
+    def __init__(self, questions_file="fragen.json", used_file="used_questions.json"):
         self.questions_file = questions_file
         self.used_file = used_file
         self.questions_data = self.load_questions()
@@ -224,7 +224,12 @@ class QuizPresenter:
             messagebox.showinfo("Zeit abgelaufen!", f"Die Zeit ist abgelaufen.\nRichtige Antwort: {question['answer']}")
             self.model.record_review(question, [], False)
             self.next_question()
-
+            
+            
+    def next_question(self):
+        self.model.current_question_index += 1
+        self.load_question()
+    
     def load_question(self):
         if self.model.current_question_index >= len(self.questions):
             self.export_results()
