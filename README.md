@@ -38,7 +38,7 @@ pip install reportlab
 ```
 
 ### 3. Fragen-Datei vorbereiten
-Die Datei `fragen.json` enthält die 300 Fragen.  
+Die Datei `fragen.json` enthält die 261 Fragen.  
 Format pro Frage:
 ```json
 {
