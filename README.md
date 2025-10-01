@@ -60,7 +60,7 @@ Format pro Frage:
 
 1. Starte die App:
 ```bash
-python main.py
+python DevOpsQuiz.py
 ```
 
 2. Gib deinen Namen und die gewünschte Anzahl Fragen ein.  
@@ -87,27 +87,12 @@ python main.py
 
 ```
 .
-├── main.py                # Hauptprogramm
-├── fragen.json            # Fragenpool (300 Fragen)
+├── DevOpsQuiz.py          # Hauptprogramm
+├── fragen.json            # Fragenpool (261 Fragen)
 ├── asked_questions.json   # Tracking-Datei (automatisch erstellt)
 ├── README.md              # Dokumentation
 ```
 
----
-
-## 📌 Git Commit History (Empfohlen)
-
-- `Initial commit: added base project with questions file`
-- `Added StartDialog with name and question count input`
-- `Added basic QuizWindow with question and answer options`
-- `Implemented answer checking with feedback for wrong answers`
-- `Added category display for each question`
-- `Added review window with restart and exit options`
-- `Added CSV export for quiz results with timestamp`
-- `Added PDF export for quiz results with timestamp (requires reportlab)`
-- `Added persistent question tracking to avoid repeats across sessions`
-
----
 
 ## ✅ Lizenz
 
