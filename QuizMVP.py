@@ -13,7 +13,7 @@ import os
 
 # ------------------- Model -------------------
 class QuizModel:
-    def __init__(self, questions_file="ExterneDevOpsPrüfungMitKategorie.json", used_file="used_questions.json"):
+    def __init__(self, questions_file="frage.json", used_file="used_questions.json"):
         self.questions_file = questions_file
         self.used_file = used_file
         self.questions_data = self.load_questions()
