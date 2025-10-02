@@ -7,7 +7,7 @@ Die Anwendung zeigt Multiple-Choice-Fragen mit Kategorien, speichert Ergebnisse 
 
 ## 🚀 Features
 
-- **Fragenpool mit 261 Fragen** (JSON-Datei `fragen.json`)
+- **Fragenpool mit 262 Fragen** (JSON-Datei `fragen.json`)
 - **Startdialog** mit Eingabe von Name und Anzahl Fragen
 - **Quiz-Fenster** mit Anzeige der Fragen & Antwortmöglichkeiten
 - **Kategorie-Anzeige** pro Frage
@@ -25,12 +25,14 @@ Die Anwendung zeigt Multiple-Choice-Fragen mit Kategorien, speichert Ergebnisse 
 ## 🛠️ Installation
 
 ### 1. Repository klonen
+
 ```bash
 git clone https://github.com/dein-user/devops-foundation-quiz.git
 cd devops-foundation-quiz
 ```
 
 ### 2. Abhängigkeiten installieren
+
 Python 3.8+ wird empfohlen.
 
 ```bash
@@ -38,8 +40,10 @@ pip install reportlab
 ```
 
 ### 3. Fragen-Datei vorbereiten
-Die Datei `fragen.json` enthält die 261 Fragen.  
+
+Die Datei `fragen.json` enthält die 262 Fragen.  
 Format pro Frage:
+
 ```json
 {
   "question": "Was bedeutet „Shift-Left“ im DevOps-Kontext?",
@@ -59,12 +63,13 @@ Format pro Frage:
 ## ▶️ Nutzung
 
 1. Starte die App:
+
 ```bash
-python DevOpsQuiz.py
+python QuizMVP.py
 ```
 
-2. Gib deinen Namen und die gewünschte Anzahl Fragen ein.  
-3. Bearbeite die Fragen und bestätige deine Antworten.  
+2. Gib deinen Namen und die gewünschte Anzahl Fragen ein.
+3. Bearbeite die Fragen und bestätige deine Antworten.
 4. Am Ende siehst du:
    - Punkte & Prozent
    - Review aller Fragen
@@ -87,12 +92,11 @@ python DevOpsQuiz.py
 
 ```
 .
-├── DevOpsQuiz.py          # Hauptprogramm
+├── QuizMVP.py             # Hauptprogramm
 ├── fragen.json            # Fragenpool (261 Fragen)
 ├── asked_questions.json   # Tracking-Datei (automatisch erstellt)
 ├── README.md              # Dokumentation
 ```
-
 
 ## ✅ Lizenz
 
