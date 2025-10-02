@@ -95,7 +95,7 @@ class StartView(tk.Tk):
                    textvariable=self.num_questions, font=("Arial", 12)).pack(pady=5)
 
         self.no_repeat_var = tk.BooleanVar(value=True)
-        tk.Checkbutton(self, text="Fragen nicht wiederholen bis alle durchlaufen",
+        tk.Checkbutton(self, text=f"Fragen nicht wiederholen bis alle {self.questions_count} durchlaufen sind",
                        variable=self.no_repeat_var, font=("Arial", 11)).pack(pady=10)
 
         tk.Label(self, text="Diagrammtyp für PDF:", font=("Arial", 12)).pack(pady=5)
