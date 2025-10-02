@@ -1,3 +1,29 @@
+
+import os
+import subprocess
+import sys
+import importlib
+
+def install_requirements():
+    req_file = "requirements.txt"
+    if os.path.exists(req_file):
+        print(f"Installiere Pakete aus {req_file}...")
+        subprocess.check_call([sys.executable, "-m", "pip", "install", "-r", req_file])
+    else:
+        print(f"{req_file} nicht gefunden. Überprüfe manuell oder installiere fehlende Pakete...")
+        # Fallback: interne Liste
+        required_packages = ["matplotlib", "reportlab"]
+        for package in required_packages:
+            try:
+                importlib.import_module(package)
+            except ImportError:
+                print(f"{package} wird installiert...")
+                subprocess.check_call([sys.executable, "-m", "pip", "install", package])
+
+# Installation prüfen / Pakete installieren
+install_requirements()
+
+
 import json
 import random
 import tkinter as tk
@@ -10,6 +36,18 @@ from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Image
 import matplotlib.pyplot as plt
 import io
 import os
+
+
+# Benötigte externe Bibliotheken
+required_packages = ["matplotlib", "reportlab"]
+
+for package in required_packages:
+    try:
+        importlib.import_module(package)
+    except ImportError:
+        print(f"{package} wird installiert...")
+        subprocess.check_call([sys.executable, "-m", "pip", "install", package])
+        
 
 # ------------------- Model -------------------
 class QuizModel:
