@@ -8,7 +8,7 @@ def install_requirements():
     req_file = "requirements.txt"
     if os.path.exists(req_file):
         print(f"Installiere Pakete aus {req_file}...")
-        subprocess.check_call([sys.executable, "-m", "pip", "install", "-r", req_file])
+        subprocess.check_call([sys.executable, "-m", "pip", "install", "-r", req_file,"--quiet"])
     else:
         print(f"{req_file} nicht gefunden. Überprüfe manuell oder installiere fehlende Pakete...")
         # Fallback: interne Liste
