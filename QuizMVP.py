@@ -38,7 +38,7 @@ import io
 import os
 
 
-# Benötigte externe Bibliotheken
+""" # Benötigte externe Bibliotheken
 required_packages = ["matplotlib", "reportlab"]
 
 for package in required_packages:
@@ -46,7 +46,7 @@ for package in required_packages:
         importlib.import_module(package)
     except ImportError:
         print(f"{package} wird installiert...")
-        subprocess.check_call([sys.executable, "-m", "pip", "install", package])
+        subprocess.check_call([sys.executable, "-m", "pip", "install", package]) """
         
 
 # ------------------- Model -------------------
