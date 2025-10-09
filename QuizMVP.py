@@ -3,7 +3,23 @@ import os
 import subprocess
 import sys
 import importlib
+import platform
+import json
+import random
+import tkinter as tk
+from tkinter import messagebox, ttk
+import csv
+from datetime import datetime
+from reportlab.lib.pagesizes import A4
+from reportlab.lib.styles import getSampleStyleSheet
+from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Image
+import matplotlib.pyplot as plt
+import io
+import os
 
+
+
+# ------------------- Pakete installieren falls nicht vorhanden -------------------
 def install_requirements():
     req_file = "requirements.txt"
     if os.path.exists(req_file):
@@ -24,32 +40,32 @@ def install_requirements():
 install_requirements()
 
 
-import json
-import random
-import tkinter as tk
-from tkinter import messagebox, ttk
-import csv
-from datetime import datetime
-from reportlab.lib.pagesizes import A4
-from reportlab.lib.styles import getSampleStyleSheet
-from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Image
-import matplotlib.pyplot as plt
-import io
-import os
+# ------------------- OS-abhängige Farben -------------------
+# Betriebssystem erkennen
+OS_NAME = platform.system().lower()
 
-
-""" # Benötigte externe Bibliotheken
-required_packages = ["matplotlib", "reportlab"]
-
-for package in required_packages:
-    try:
-        importlib.import_module(package)
-    except ImportError:
-        print(f"{package} wird installiert...")
-        subprocess.check_call([sys.executable, "-m", "pip", "install", package]) """
-        
+# Farbschema je nach OS
+if "darwin" in OS_NAME:  # macOS
+    COLORS = {
+        "bg_main": "#e6e6e6",
+        "bg_frame": "#f9f9f9",
+        "text": "black",
+        "button_bg": "#4CAF50",
+        "button_fg": "black",
+        "accent": "#d1e3f0"
+    }
+else:  # Windows / Linux
+    COLORS = {
+        "bg_main": "#f0f4f7",
+        "bg_frame": "#ffffff",
+        "text": "black",
+        "button_bg": "#4CAF50",
+        "button_fg": "white",
+        "accent": "#d1e3f0"
+    }
 
 # ------------------- Model -------------------
+
 class QuizModel:
     def __init__(self, questions_file="fragen.json", used_file="used_questions.json"):
         self.questions_file = questions_file
@@ -144,7 +160,7 @@ class StartView(tk.Tk):
                        font=("Arial", 11)).pack()
 
         tk.Button(self, text="Quiz starten", font=("Arial", 12, "bold"),
-                  bg="#4CAF50", fg="white", activebackground="#45a049",
+                  bg=COLORS["button_bg"], fg="white", activebackground="#45a049",
                   command=self.start_quiz).pack(pady=10)
 
     def start_quiz(self):
@@ -166,38 +182,38 @@ class QuizView(tk.Tk):
         self.presenter = presenter
         self.title("DevOps Foundation Quiz")
         self.geometry("950x700")
-        self.configure(bg="#f0f4f7")
+        self.configure(bg=COLORS["bg_main"])
         self.resizable(False, False)
         self.create_widgets()
 
     def create_widgets(self):
-        self.top_frame = tk.Frame(self, bg="#d1e3f0", padx=20, pady=10)
+        self.top_frame = tk.Frame(self, bg=COLORS["accent"], padx=20, pady=10)
         self.top_frame.pack(fill="x")
-        self.question_frame = tk.Frame(self, bg="#ffffff", padx=20, pady=20, relief="groove", bd=2)
+        self.question_frame = tk.Frame(self, bg=COLORS["bg_frame"], padx=20, pady=20, relief="groove", bd=2)
         self.question_frame.pack(pady=15, fill="x", padx=20)
         self.options_frame = tk.Frame(self, bg="#f7f9fb", padx=20, pady=10, relief="ridge", bd=2)
         self.options_frame.pack(pady=10, fill="x", padx=20)
-        self.bottom_frame = tk.Frame(self, bg="#d1e3f0", padx=20, pady=10)
+        self.bottom_frame = tk.Frame(self, bg=COLORS["accent"], padx=20, pady=10)
         self.bottom_frame.pack(fill="x", pady=10)
 
-        self.progress_label = tk.Label(self.top_frame, text="", font=("Helvetica", 12, "bold"), bg="#d1e3f0")
+        self.progress_label = tk.Label(self.top_frame, text="", font=("Helvetica", 12, "bold"), bg=COLORS["accent"])
         self.progress_label.pack(side="left")
-        self.timer_label = tk.Label(self.top_frame, text="", font=("Helvetica", 12, "bold"), fg="red", bg="#d1e3f0")
+        self.timer_label = tk.Label(self.top_frame, text="", font=("Helvetica", 12, "bold"), fg="red", bg=COLORS["accent"])
         self.timer_label.pack(side="right")
-        self.score_label = tk.Label(self.bottom_frame, text="Punkte: 0", font=("Helvetica", 12, "bold"), bg="#d1e3f0")
+        self.score_label = tk.Label(self.bottom_frame, text="Punkte: 0", font=("Helvetica", 12, "bold"), bg=COLORS["accent"])
         self.score_label.pack(side="left")
         self.progress_bar = ttk.Progressbar(self.bottom_frame, length=500, mode="determinate")
         self.progress_bar.pack(side="right", padx=10)
 
         self.question_label = tk.Label(self.question_frame, text="", wraplength=900, font=("Helvetica", 16),
-                                       justify="left", bg="#ffffff")
+                                       justify="left", bg=COLORS["bg_frame"])
         self.question_label.pack()
         self.category_label = tk.Label(self.question_frame, text="", font=("Helvetica", 12, "italic"),
-                                       fg="gray", bg="#ffffff")
+                                       fg="gray", bg=COLORS["bg_frame"])
         self.category_label.pack(pady=5)
 
         self.submit_btn = tk.Button(self, text="Antwort bestätigen", font=("Helvetica", 14, "bold"),
-                                    bg="#4CAF50", fg="white", activebackground="#45a049",
+                                    bg=COLORS["button_bg"], fg="white", activebackground="#45a049",
                                     command=self.presenter.check_answer)
         self.submit_btn.pack(pady=10)
 
@@ -231,7 +247,7 @@ class QuizView(tk.Tk):
             text = cb.cget("text")
             cb.config(state="disabled")
             if text in correct:
-                cb.config(bg="#4CAF50", fg="white")
+                cb.config(bg=COLORS["button_bg"], fg="white")
             elif text in selected and text not in correct:
                 cb.config(bg="#f44336", fg="white")
 
@@ -370,21 +386,21 @@ class QuizPresenter:
         review_root = tk.Toplevel()
         review_root.title("Prüfungsübersicht")
         review_root.geometry("950x600")
-        review_root.configure(bg="#f0f4f7")
+        review_root.configure(bg=COLORS["bg_main"])
 
         percent = round((self.model.score / self.quiz_size) * 100, 2)
         passed = self.model.score >= int(self.quiz_size * 0.65)
         result_text = "✅ Bestanden" if passed else "❌ Nicht bestanden"
 
         tk.Label(review_root, text=f"Quiz beendet! Punktzahl: {self.model.score}/{self.quiz_size} ({percent}%)",
-                 font=("Helvetica", 16, "bold"), bg="#f0f4f7").pack(pady=10)
+                 font=("Helvetica", 16, "bold"), bg=COLORS["bg_main"]).pack(pady=10)
         tk.Label(review_root, text=f"Ergebnis: {result_text}",
-                 font=("Helvetica", 14, "bold"), bg="#f0f4f7",
+                 font=("Helvetica", 14, "bold"), bg=COLORS["bg_main"],
                  fg="green" if passed else "red").pack(pady=5)
 
-        canvas = tk.Canvas(review_root, bg="#f0f4f7")
+        canvas = tk.Canvas(review_root, bg=COLORS["bg_main"])
         scrollbar = tk.Scrollbar(review_root, orient="vertical", command=canvas.yview)
-        scroll_frame = tk.Frame(canvas, bg="#f0f4f7")
+        scroll_frame = tk.Frame(canvas, bg=COLORS["bg_main"])
         scroll_frame.bind("<Configure>", lambda e: canvas.configure(scrollregion=canvas.bbox("all")))
         canvas.create_window((0, 0), window=scroll_frame, anchor="nw")
         canvas.configure(yscrollcommand=scrollbar.set)
@@ -397,9 +413,9 @@ class QuizPresenter:
                    f"Deine Antwort: {', '.join(item['selected'])}\n" \
                    f"Richtige Antwort: {', '.join(item['correct'])}\nStatus: {status}\n"
             tk.Label(scroll_frame, text=text, font=("Arial", 12), wraplength=900,
-                     justify="left", anchor="w", bg="#f0f4f7").pack(pady=5, padx=10, fill="x")
+                     justify="left", anchor="w", bg=COLORS["bg_main"]).pack(pady=5, padx=10, fill="x")
 
-        btn_frame = tk.Frame(review_root, bg="#f0f4f7")
+        btn_frame = tk.Frame(review_root, bg=COLORS["bg_main"])
         btn_frame.pack(pady=15)
 
         def new_quiz():
@@ -408,7 +424,7 @@ class QuizPresenter:
             main()
 
         tk.Button(btn_frame, text="Neues Quiz starten", font=("Helvetica", 14, "bold"),
-                  bg="#4CAF50", fg="white", activebackground="#45a049",
+                  bg=COLORS["button_bg"], fg="white", activebackground="#45a049",
                   command=new_quiz).pack(side="left", padx=10)
         tk.Button(btn_frame, text="Quiz beenden", font=("Arial", 12), fg="red",
                   command=self.view.quit).pack(side="left", padx=10)
